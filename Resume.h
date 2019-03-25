@@ -19,6 +19,7 @@ public:
 	std::string summary =
 		"Second Year Game Development and Entrepreneurship student at University of Ontario Institute of Technology. ";
 
+	//resume accessors
 	std::string getAwards(unsigned dateYear, unsigned dateMonth);
 	std::string getWorkExperience(unsigned dateYear, unsigned dateMonth);
 	std::string getEducation(unsigned dateYear, unsigned dateMonth);
